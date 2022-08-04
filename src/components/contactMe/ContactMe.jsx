@@ -11,7 +11,7 @@ var data = [
   {
     type: "WhatsApp",
     note: "9319830149",
-    link: "https://api.web.whatsapp.com/send?phone=+919319830149",
+    link: "https://api.whatsapp.com/send?phone=+919319830149",
   },
 ];
 
