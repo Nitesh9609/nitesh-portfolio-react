@@ -27,3 +27,21 @@
     border-top-left-radius: 25rem;
     
 }
+
+/* ================== MEDIA QUERY (MEDIUM DEVICE) ===================== */
+
+@media screen and (max-width: 1024px){
+
+}
+
+/* ================== MEDIA QUERY (SMALL DEVICE) ===================== */
+
+@media screen and (max-width: 604px){
+    .media a{
+        display: none;
+    }
+
+    .img1{
+        width: 50%;
+    }
+}

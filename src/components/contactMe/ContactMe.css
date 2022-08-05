@@ -81,5 +81,28 @@ input::placeholder{
     color: aliceblue;
 }
 
+/* ================== MEDIA QUERY (MEDIUM DEVICE) ===================== */
 
+@media screen and (max-width: 1024px){
+    .contact_div{
+        
+        grid-gap: 15vw;
+        margin-top: 10vh;
+    }
+}
+
+/* ================== MEDIA QUERY (SMALL DEVICE) ===================== */
+
+@media screen and (max-width: 604px){
+    .contact_div{
+        display: grid;
+        grid-template-columns: 200px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%); 
+        width: min-content;  
+        grid-gap: 5vw;
+        margin-top: 5vh;
+    }
+}
 

@@ -27,7 +27,7 @@ const About = () => {
       </div>
       
       <div className='about_body'>
-        <div>
+        <div >
           <img className='img2' src={'assets/nitesh2.png'} alt='nitesh2' width='max contant'/>
         </div>
 
