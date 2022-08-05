@@ -16,8 +16,9 @@ const Header = () => {
         </div>
           
           <div>
-            <button className='btn' >Download CV </button>
-            <button className='btn'>Let's Talk</button>
+            <a href="https://drive.google.com/file/d/139L9v_CYCYTROkofWqVFXL6yuAI2Ntgg/view?usp=sharing"><button className='btn'>Download CV </button></a>
+            <a href="#contact"><button className='btn'>Let's Talk</button></a>
+            
           </div>
 
           
@@ -25,9 +26,9 @@ const Header = () => {
         
 
           <div className='media'>
-              <a href=''><LinkedInIcon/></a>
-              <a href=''><GitHubIcon/></a>
-              <a href=''><InstagramIcon/></a>
+              <a href='https://www.linkedin.com/in/nitesh-sharma-61391a194/'><LinkedInIcon/></a>
+              <a href='https://github.com/Nitesh9609'><GitHubIcon/></a>
+              <a href='https://www.instagram.com/nitesh_sharma20/'><InstagramIcon/></a>
           </div>
       </div>
     </>

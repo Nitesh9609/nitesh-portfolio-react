@@ -85,13 +85,15 @@ input::placeholder{
 
 @media screen and (max-width: 1024px){
     .contact_div{
-        
         grid-gap: 15vw;
         margin-top: 10vh;
     }
 }
 
+
 /* ================== MEDIA QUERY (SMALL DEVICE) ===================== */
+
+
 
 @media screen and (max-width: 604px){
     .contact_div{

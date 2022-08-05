@@ -5,31 +5,31 @@ var data = [
   {
       "image":"assets/monster.png",
       "content": "Monster Rolodex",
-      "github_url":"something",
+      "github_url":"https://github.com/Nitesh9609/monsters",
       "vercel_url":"https://monsters-beta.vercel.app/"
   },
   {
       "image":"assets/gym exercise.png",
       "content": "Gym Exercise",
-      "github_url":"something1",
+      "github_url":"https://github.com/Nitesh9609/gym-exercises",
       "vercel_url":"https://gym-exercises.vercel.app/"
   },
   {
     "image":"assets/employee dashboard.png",
     "content": "Employee Dashboard",
-    "github_url":"something1",
+    "github_url":"https://github.com/Nitesh9609/employee-management-system-frontend",
     "vercel_url":"https://employee-management-system-frontend-henna.vercel.app/"
 },
 {
   "image":"assets/shopmart.png",
   "content": "Shop Mart",
-  "github_url":"something1",
+  "github_url":"https://github.com/Nitesh9609/shopping24.github.io",
   "vercel_url":"https://shoppingcc.vercel.app/"
 },
 {
   "image":"assets/fitnessmania.png",
   "content": "Fitness Mania",
-  "github_url":"something1",
+  "github_url":"https://github.com/Nitesh9609/Fitness-Mania",
   "vercel_url":"https://fitness-mania.vercel.app/"
 }
 ]
@@ -54,7 +54,8 @@ const Projects = () => {
           <h4>{datas.content}</h4>
           </div>
           <div>
-          <button className='btn' >Github Link</button>
+            <a href={datas.github_url}><button className='btn' >Github Link</button></a>
+          
           <a href={datas.vercel_url}><button className='btn'>Live Demo</button></a>
           
           </div>

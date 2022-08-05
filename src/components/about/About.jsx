@@ -48,7 +48,8 @@ const About = () => {
           
           </div>
           <div className='chat_btn'>
-            <button className='btn'>Let's Chat</button>
+            <a href="#contact"><button className='btn'>Let's Chat</button></a>
+            
           </div>
         </div>
         
