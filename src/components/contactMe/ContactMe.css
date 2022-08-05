@@ -104,5 +104,15 @@ input::placeholder{
         grid-gap: 5vw;
         margin-top: 5vh;
     }
+
+    input{
+        
+        width: 60vw;
+        
+    }
+    textarea{
+        width: 60vw;
+        
+    }
 }
 
