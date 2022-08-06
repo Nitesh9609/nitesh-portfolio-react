@@ -4,14 +4,17 @@ import './About.css'
 
 var data = [
   {
+      "img": 'assets/experience.png',
       "name": "Experience",
       "note": "6 month Working"
   },
   {
+      "img": 'assets/clients.png',
       "name": "Clients",
       "note": "1 Working"
   },
   {
+      "img": 'assets/project.png',
       "name": "Projects",
       "note": "10+ Completed"
   }
@@ -35,7 +38,8 @@ const About = () => {
           <div className='blocks'>
             {
               data.map((datas,key)=>(
-                <div >
+                <div className='exp'>
+                  <img className='logo' src={datas.img} alt="img" />
                   <h4>{datas.name}</h4>
                   <h6>{datas.note}</h6>
                 </div>

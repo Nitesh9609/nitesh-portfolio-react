@@ -26,6 +26,15 @@
     grid-auto-rows: 200px;
 }*/
 
+.logo{
+    width: 30%;
+    
+}
+
+.exp img{
+    color: aliceblue;
+}
+
 .blocks{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,6 +84,6 @@ h6, .note{
         display: block;
         margin-top: -50px;
         margin-bottom: 30px;
-        width: 100%;
+        width: 90%;
     }
 }
