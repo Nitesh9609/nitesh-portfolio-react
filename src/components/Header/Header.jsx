@@ -4,6 +4,7 @@ import './Header.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import CV from '../../resume/cv.pdf'
 
 const Header = () => {
   return (
@@ -16,7 +17,8 @@ const Header = () => {
         </div>
           
           <div>
-            <a href="https://drive.google.com/file/d/139L9v_CYCYTROkofWqVFXL6yuAI2Ntgg/view?usp=sharing"><button className='btn'>Download CV </button></a>
+            {/* <a href="https://drive.google.com/file/d/139L9v_CYCYTROkofWqVFXL6yuAI2Ntgg/view?usp=sharing"><button className='btn'>Download CV </button></a> */}
+            <a href={CV} download><button className='btn'>Download CV </button></a>
             <a href="#contact"><button className='btn'>Let's Talk</button></a>
             
           </div>
