@@ -31,6 +31,12 @@ var data = [
   "content": "Fitness Mania",
   "github_url":"https://github.com/Nitesh9609/Fitness-Mania",
   "vercel_url":"https://fitness-mania.vercel.app/"
+},
+{
+  "image":"assets/addtocart.png",
+  "content": "Add To Cart",
+  "github_url":"https://github.com/Nitesh9609/add-tocart",
+  "vercel_url":"https://add-tocart.vercel.app/"
 }
 ]
 
