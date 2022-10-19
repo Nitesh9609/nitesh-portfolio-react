@@ -37,6 +37,12 @@ var data = [
   "content": "Add To Cart",
   "github_url":"https://github.com/Nitesh9609/add-tocart",
   "vercel_url":"https://add-tocart.vercel.app/"
+},
+{
+  "image":"assets/e-commerce.png",
+  "content": "E-Commerce",
+  "github_url":"https://github.com/Nitesh9609/e-commerce",
+  "vercel_url":"https://e-commerce-teal-kappa.vercel.app/"
 }
 ]
 
