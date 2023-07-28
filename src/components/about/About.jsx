@@ -6,7 +6,7 @@ var data = [
   {
       "img": 'assets/experience.png',
       "name": "Experience",
-      "note": "6 month Working"
+      "note": "12 months Working"
   },
   {
       "img": 'assets/clients.png',
